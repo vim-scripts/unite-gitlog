@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5305
+
+This project is hosted at github: https://github.com/chemzqm/unite-git-log
+
+unite-gitlog let you works with gitlog combined with the power of unite.
+Start unite-gitlog with command like: >
+
+	:Unite gitlog
+
+Note: command need shell to work, may not works on windows, never tested
+
+## PREREQUIREMENT	
+
+This plugin requires |unite|, |vimproc| and |easygit| to work.  If you're
+using vundle, you can install them by add:
+
+If you use fugitive you can use tag 0.1.0 at github and skip install of easygit
